@@ -32,9 +32,22 @@
 // animal${animal} , pet${pet} , favcompany${favcompany} , branch${branch} `)
    
 
-for( let i=1; i<8 ; i++)
+// for( let i=1; i<8 ; i++)
+// {
+//     var a=i+1;
+//     console.log(`Sum of ${i} and ${a} = ${i+a} `  )
+// }
+// for(let i=1;i<=7;i++)
+// {
+//     console.log(`pragati day ${i}`)
+// }
+
+let a=["footboll","criket","kabbadi","khokho","tennis"];
+console.log(a[4])
+for(let i=0; i<a.length;i++)
 {
-    var a=i+1;
-    console.log(`Sum of ${i} and ${a} = ${i+a} `  )
+    
+    console.log(`pragati= Day ${i+1} => ${a[i]} `);
 }
- 
+cse_student=["ram","shyam","mohn","om","pranshu"]
+console.log(cse_student[1])
